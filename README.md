@@ -23,5 +23,6 @@ docker-compose exec app bach
 ```
 #### 3.コンテナ（appサービス）に入った状態でLaravelプロジェクトを立ち上げる。
 ```
-composer create-project --prefer-dist laravel/laravel laravel_project "10.*"
+composer create-project --prefer-dist "laravel/laravel=10.*" .
+
 ```
